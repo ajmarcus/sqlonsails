@@ -1,0 +1,27 @@
+{
+  "name": "sqlonsails",
+  "version": "0.0.1",
+  "description": "sql interpreter for typescript",
+  "main": "dist/repl.js",
+  "scripts": {
+    "start": "node dist/repl.js",
+    "dev": "rm -R dist && tsc && node dist/repl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmarcus/sqlonsails.git"
+  },
+  "keywords": [
+    "sql"
+  ],
+  "author": "Ariel Marcus",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/ajmarcus/sqlonsails/issues"
+  },
+  "homepage": "https://github.com/ajmarcus/sqlonsails#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}

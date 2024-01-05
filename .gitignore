@@ -1,0 +1,4 @@
+.DS_Store
+books
+dist
+node_modules

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        // output compiled js files to dist folder
+        "outDir": "dist",
+
+        // typescript language settings
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictNullChecks": true,
+    },
+}
