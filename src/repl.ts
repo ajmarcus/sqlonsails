@@ -2,6 +2,7 @@
 // reads the user's input and prints it back to them after each newline
 
 import { createInterface } from 'node:readline';
+import { parse } from './parser';
 
 const readline = createInterface({
     input: process.stdin,
@@ -18,7 +19,7 @@ readline.on('line', (input: string) => {
     if (input === 'exit') {
         readline.close();
     } else {
-        console.log(input);
+        console.log(parse(input));
         readline.prompt();
     }
 });
