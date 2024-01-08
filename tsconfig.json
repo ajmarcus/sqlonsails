@@ -1,4 +1,7 @@
 {
+        // input files
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"],
     "compilerOptions": {
         // output compiled js files to dist folder
         "outDir": "dist",
