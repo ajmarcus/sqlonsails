@@ -35,7 +35,7 @@ const tokens = new Set([
 ]);
 
 function parse(input: string): string[] {
-    var result = [];
+    const result = [];
     const inputTokens = input.toUpperCase().split(/\s+/);
     for (const t of inputTokens) {
         if (tokens.has(t)) {
