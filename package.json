@@ -5,8 +5,8 @@
     "main": "dist/repl.js",
     "scripts": {
         "start": "node dist/repl.js",
-        "dev": "rm -Rf dist && tsc && node dist/repl.js",
-        "build": "tsc",
+        "dev": "rm -Rf dist && tsc -p tsconfig-build.json && node dist/repl.js",
+        "build": "tsc -p tsconfig-build.json",
         "clean": "rm -R dist",
         "fmt": "prettier . --write",
         "fmt-check": "prettier . --check",
