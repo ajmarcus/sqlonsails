@@ -5,7 +5,11 @@
     "main": "dist/repl.js",
     "scripts": {
         "start": "node dist/repl.js",
-        "dev": "rm -R dist && npx tsc && node dist/repl.js",
+        "dev": "rm -Rf dist && tsc && node dist/repl.js",
+        "build": "tsc",
+        "clean": "rm -R dist",
+        "fmt": "prettier . --write",
+        "fmt-check": "prettier . --check",
         "lint": "eslint .",
         "test": "jest"
     },
