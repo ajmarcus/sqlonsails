@@ -1,5 +1,5 @@
 {
-        // input files
+    // input files
     "include": ["src/**/*"],
     "exclude": ["node_modules", "dist"],
     "compilerOptions": {
@@ -12,6 +12,6 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "strict": true,
-        "strictNullChecks": true,
-    },
+        "strictNullChecks": true
+    }
 }

@@ -1,5 +1,4 @@
-sql on sails
-============
+# sql on sails
 
 sql interpreter in typescript
 
